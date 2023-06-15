@@ -1,2 +1,2 @@
 # alx-low_level_programming
-i am now a low lwvwl programmer
+i am now a low level programmer
