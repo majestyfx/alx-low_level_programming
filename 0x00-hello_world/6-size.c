@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - size of C program
- * iReturn: 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
