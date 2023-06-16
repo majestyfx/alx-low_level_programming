@@ -1,2 +1,2 @@
 #!/bin/bash
-cat main.c #include <stdio.h>
+gcc -E $CFILE -o c
