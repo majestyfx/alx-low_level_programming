@@ -6,11 +6,13 @@
 #include <sys/stat.h>
 #include <fcntl.h>
 /**
- * main - a code that writes
- * Return 1 (Success)
+ * main - a quote that
+ * Return 1 (succes)
  */
 int main(void)
 {
-fput("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n", stdout);
+write("and that piece of art is useful\" - Dora Korpar, 2015-10-19\n");
+if (fd != -1)
 return (1);
 }
+
