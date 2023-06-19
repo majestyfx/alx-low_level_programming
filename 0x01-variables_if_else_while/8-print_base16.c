@@ -12,7 +12,7 @@ char base;
 for (d = '0'; d <= '9'; d++)
 putchar(d);
 for (base = 'a'; base <= 'f'; base++)
-putchar('\n');
 putchar(base);
+putchar('\n');
 return (0);
 }
