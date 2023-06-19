@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - A main function of code
- * return 0 (success)
+ * Return: 0 (success)
  */
 int main(void)
 {
