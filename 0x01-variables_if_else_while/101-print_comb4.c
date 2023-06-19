@@ -10,19 +10,18 @@ int main(void)
 int j, k, l;
 for (j = '0'; j < 9; j++)
 {
-for (k = 1; k < 9; k++)
+for (k = j + 1; k <= 9; k++)
 {
-for (l = 1; l < 9; l++)
+for (l = k + 1; l <= 9; l++)
 {
 if ((k != j) != l)
 {
 putchar(j);
 putchar(k);
 putchar(l);
-{
+if (k == '7' && k == '8')
 putchar(',');
 putchar(' ');
-}
 }
 }
 }
