@@ -8,17 +8,17 @@
 int main(void)
 {
 int j, k, l;
-for (j = 10; j < 10; j++)
+for (j = '0'; j < 9; j++)
 {
-for (k = 10; k < 10; k++)
+for (k = 1; k < 9; k++)
 {
-for (l = 10; l < 10; l++)
+for (l = 1; l < 9; l++)
 {
-if (j != 7 || k != 8 || l != 9)
+if ((k != j) != l)
 {
-putchar('0' + j);
-putchar('0' + k);
-putchar('0' + l);
+putchar(j);
+putchar(k);
+putchar(l);
 {
 putchar(',');
 putchar(' ');
