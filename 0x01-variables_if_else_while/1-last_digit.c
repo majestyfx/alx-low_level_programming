@@ -8,9 +8,9 @@
 int main(void)
 {
 int n;
+char *name="lastDigit\n", n; % 10;
 srand(time(0));
 n = rand();
-int lastDigit = n % 10;
 printf("Last digit of %d is ", n);
 if (lastDigit > 5)
 {
