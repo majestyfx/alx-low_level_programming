@@ -9,8 +9,7 @@ int main(void)
 {
 int n;
 srand(time(0));
-n = rand() % 201 - 100;
-printf("The number %d is ", n);
+n = rand() - RAND_MAX / 2;
 if (n > 0)
 {
 printf("positive\n");
