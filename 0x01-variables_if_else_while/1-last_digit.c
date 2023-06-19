@@ -3,7 +3,7 @@
 #include <time.h>
 /**
  * main - evaluate sum of numbers
- * return (0)
+ * Return: 0 (success)
  */
 int main(void)
 {
