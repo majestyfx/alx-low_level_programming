@@ -13,12 +13,12 @@ return (0);
 }
 else if (n > 0)
 {
-putchar(45);
+putchar(48);
 return (1);
 }
 else
 {
-putchar(46);
+putchar(45);
 return (-1);
 }
 }
