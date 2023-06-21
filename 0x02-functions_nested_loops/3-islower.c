@@ -1,12 +1,12 @@
-#include <main.h>
+#include "main.h"
 /**
  * _islower - print lower case
- * c! the charcter checked
+ * @c: the charcter checked
  * Return: 1 lowercase or 0 others
  */
 int _islower(int c)
 {
-if (c >= 97 && c == 123)
+if (c >= 97 && c <= 122)
 {
 return (1);
 }
