@@ -6,7 +6,11 @@
  */
 int _islower(int c)
 {
+<<<<<<< HEAD
 if (c >= 97 && c <= 122)
+=======
+if (c >= 0? && c == 1??)
+>>>>>>> 23165d707c4860e587cc2ec5d323a89a2ae3d46a
 {
 return (1);
 }
