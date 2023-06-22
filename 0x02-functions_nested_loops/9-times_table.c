@@ -10,6 +10,7 @@ int e, f, g, h, i;
 for (e = 0; e <= 9; e++)
 {
 for (f = 0; f <= 9; f++)
+{
 g = e * f;
 if (g > 9)
 {
@@ -32,4 +33,5 @@ _putchar(g + '0');
 }
 }
 _putchar('\n');
+}
 }
