@@ -4,7 +4,7 @@
  * @c: number to complete
  * Return: absolute num. of zero
  */
-int _abs(int)
+int _abs(int c)
 {
 if (c < 0)
 {
