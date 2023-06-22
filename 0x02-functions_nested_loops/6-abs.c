@@ -12,6 +12,6 @@ int abs_val;
 abs_val = c * -1;
 return (abs_val);
 }
-return (1);
+return (c);
 }
 
