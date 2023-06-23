@@ -3,7 +3,7 @@
 /**
  * print_line - draws a straight line in the terminal
  * @n: print line
- * Return: void
+ * Return: empty
  */
 
 void print_line(int n)
