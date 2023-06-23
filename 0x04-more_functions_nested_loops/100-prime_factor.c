@@ -14,7 +14,7 @@ double square = sqrt(number);
 
 for (i = 0; i <= square; i++)
 {
-if (number % x == 0)
+if (number % i == 0)
 {
 maxf = number / i;
 }
