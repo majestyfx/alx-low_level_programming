@@ -3,7 +3,7 @@
 /**
  * _isupper - checks for uppercase character
  * @c: the function to be checked
- * Return: void
+ * Return: 1 for capital letter or 0 for else
  */
 
 int _isupper(int c)
@@ -12,8 +12,5 @@ if (c <= 'A' && c <= 'Z')
 {
 return (1);
 }
-else
-{
 return (0);
-}
 }
