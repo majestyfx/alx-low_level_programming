@@ -3,7 +3,7 @@
 /**
  * _isdigit - a function that checks for a digit 0 through 9.
  * @c: function to be checked 
- * Return: 1 for number  or 0 for anyelse
+ * Return: 1 for number or 0 for anyelse
  */
 
 int _isdigit(int c)
