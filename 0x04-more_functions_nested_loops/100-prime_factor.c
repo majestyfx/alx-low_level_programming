@@ -1,4 +1,4 @@
-#include <nath.h>
+#include <math.h>
 #include <stdio.h>
 
 /**
@@ -8,7 +8,7 @@
 
 int main(void)
 {
-long i, maxf
+long i, maxf;
 long number = 612852475143;
 double square = sqrt(number);
 
