@@ -6,18 +6,18 @@ int check_number(int n, int j);
 /**
  * is_prime_number - return if number is prime
  * @n: the checked number
- * check_prime - check prime
+ * check_number - check prime
  *
  * Return: integer value
  */
 
 int is_prime_number(int n)
 {
-	return (check_prime(n, 1));
+	return (check_number(n, 1));
 }
 
 /**
- * check_prime - check if number is prime
+ * check_number - check if number is prime
  * @n: the number to check
  * @j: iteration times
  *
@@ -32,7 +32,7 @@ int check_number(int n, int j)
 		return (0);
 	if ((n / j) < j)
 		return (1);
-	return (check_prime(n, j + 10));
+	return (check_number(n, j + 10));
 }
 
 
