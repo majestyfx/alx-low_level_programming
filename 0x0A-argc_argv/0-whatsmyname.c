@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- * main - prints the number of arguements passed to it
- * @argc: variable to print
+ * main - prints the name
+ * @argc: variable to count
  * @argv: arguement vector
  *
  * Return: 0
@@ -11,7 +11,7 @@
 
 int main(int argc, char *argv[])
 {
-	(void)argv;
-	printf("%d\n", argc - 1);
+	(void)argc;
+	printf("%s\n", argv[0]);
 	return (0);
 }
